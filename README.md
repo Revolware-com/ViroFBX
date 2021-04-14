@@ -8,10 +8,9 @@ This branch is supports both Linux and MacOS.
 
 ## Building
 1. Make sure Java (version 8 works) is installed. `$JAVA_HOME` should be set to something like `/usr/lib/jvm/java-8-openjdk`.
-2. Set `OS` environment variable to either `macos` or `linux`, e.g. `export OS=macos`.
-3. Clone this repo and `cd` into it
-4. `cd ViroFBX/`
-5. `make`
+2. Clone this repo and `cd` into it
+3. `cd ViroFBX/`
+4. `make`
 This should make the `virofbx` binary.
 
 ## How to use
