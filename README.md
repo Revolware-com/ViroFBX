@@ -4,13 +4,14 @@ This repository maintains the converter from FBX formats to VRX formats.
 
 FBX is an expansive and flexible 3D model format supported by most 3D authoring software. To load FBX files, use the ViroFBX script to convert the FBX file into a VRX file. The VRX file can then be loaded using [`<Viro3DObject>`](https://docs.viromedia.com/docs/3d-objects). The ViroFBX script for macOS can found in your project's `node_modules/react-viro/bin` directory.
 
-This branch is for **Linux**. Support for macOS is in the [`master`](https://github.com/ViroCommunity/ViroFBX/tree/master) branch.
+This branch is supports both Linux and MacOS.
 
 ## Building
 1. Make sure Java (version 8 works) is installed. `$JAVA_HOME` should be set to something like `/usr/lib/jvm/java-8-openjdk`.
-2. Clone this repo and `cd` into it
-3. `cd ViroFBX/`
-4. `make`
+2. Set `OS` environment variable to either `macos` or `linux`, e.g. `export OS=macos`.
+3. Clone this repo and `cd` into it
+4. `cd ViroFBX/`
+5. `make`
 This should make the `virofbx` binary.
 
 ## How to use
